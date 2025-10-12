@@ -14,3 +14,6 @@ Welcome to the **Automation Testing with Playwright & TypeScript** course reposi
 
 3. **Playwright for Test Automation**  
    Once students are comfortable with TypeScript, the course delves into Playwright, a powerful automation library for end-to-end testing. The course covers browser automation, testing APIs, handling user interactions, and writing scalable test scripts.
+
+4. **Playwright for Test Automation**  
+   Once students are comfortable with TypeScript, the course delves into Playwright, a powerful automation library for end-to-end testing. The course covers browser automation, testing APIs, handling user interactions, and writing scalable test scripts.
