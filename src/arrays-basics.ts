@@ -73,3 +73,22 @@ const newArray = originalArray.map((x) => x * 2);
 
 console.log("Original array:", originalArray);
 console.log("New array:", newArray);
+
+
+let numsArray: number [] = [1, 2, 3, 4];
+let stringArray: string [] = ["Maya", "John", "Jane"];
+let combineArray: (string | number) [] = [1, "Maya", "John", 2];
+
+
+// method map()
+let multiplyNums = numsArray.map((num: number) => num * 2);
+let mapNames = stringArray.map((curName: string) => `Hello ${curName}`);
+let checkTypeOf = combineArray.map((element: number | string) => {
+    if(typeof element === "number") {
+        return element + 5;
+    } else {
+        return `Welcome ${element}`;
+    }
+});
+console.log(mapNames);
+console.log(checkTypeOf);
